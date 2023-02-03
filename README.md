@@ -16,3 +16,10 @@ public class HolaMundo {
 }
 ```
 Después procedemos a guardar este programa en un archivo de texto llamado **HolaMundo.Java** (el nombre debe ser el mismo que el de la clase).
+##### IDE
+Un **IDE** (Integrated Development Environment) es una aplicación que facilita el desarrollo de apliaciones en algún lenguaje de programación.
+En el mercado existen diversos tipos de **IDE**, cada uno con caracteristicas propias, una constante es que te permiten manejar las etapas para generar un programa dependiendo del tipo de lenguaje utilizado.
+Ejemplos:
+- Eclipse
+- NetBeans
+- ¡Edit
