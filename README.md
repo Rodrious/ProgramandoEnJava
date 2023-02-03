@@ -64,4 +64,5 @@ y aqui acaba */
 ```
 
 **Identificadores:** En Java los identificadores comienzan por una letra del alfabeto inglés, un subrayado _ o el símbolo de dólar $.
+
 **Palabras reservadas:** Son utilizadas por Java y no pueden ser usadas como identificadores.
