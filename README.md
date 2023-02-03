@@ -23,3 +23,26 @@ Ejemplos:
 - Eclipse
 - NetBeans
 - ¡Edit
+
+# ESTRUCTURA DE UN PROGRAMA
+Todo programa Java debe estar escrito en una o varias **clases**, dentro de las cuales se podrá hacer uso del amplio conjunto de paquetes y clases prediseñadas.
+
+Una de las mejores caracteristicas de Java es que es un lenguaje totalmente orientado a objetos.
+Java consta de una clase principal (que contiene el metodo main) y algunas clases del usuario, que luego son usadas por el programa o clase principal.
+  La clase principal debe ser declarada con el modificador de acceso public y la palabra reservada class, seguida del nombre de la clase iniciando con mayuscula.
+  
+**Ejemplo:**
+```java
+clase pública MiClase{
+  		public static void main(String[] args){
+    			System.out.println("Esta es mi clase");
+  	}
+}
+```
+#### El metodo main
+En la clase principal debe existir una **función o método**  estático llamado **main** cuyo formato debe ser:
+```java
+public static void main(String[]args)
+```
+El metodo main es el punto de arranque de un programa en Java.
+#### Comentarios, identificadores y palabras reservadas
