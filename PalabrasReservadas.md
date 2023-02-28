@@ -174,7 +174,8 @@
     
         public void buscarHamburguesas() {
             String botones[] = {"Codigos", "Nombre", "Tipo"};
-            int resul = JOptionPane.showOptionDialog(null, "Buscar por: ", "BUSQUEDA DE HAMBURGUESAS", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, botones, botones[0]);
+            int resul = JOptionPane.showOptionDialog(null, "Buscar por: ", "BUSQUEDA DE HAMBURGUESAS", 
+            JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, botones, botones[0]);
             switch (resul) {
                 case 0:
                     int codEncdo;
